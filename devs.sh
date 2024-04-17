@@ -62,8 +62,8 @@ else
     echo 'Too many/few arguments, expecting two: project and workspace' >&2
     exit 1
   fi
-  project=$1
-  workspace=$2
+  workspace=$1
+  project=$2
 fi
 
 # Validate arguments
