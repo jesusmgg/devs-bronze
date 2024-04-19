@@ -4,7 +4,7 @@ Requires my specific hardware and software setup so may not be that useful to an
 
 ## Installation
 ```bash
-$ make
+$ make install
 ```
 The scripts are installed to `~/bin`.
 The `~/bin/devs_startup.sh` con be added to `.profile` or `.bashrc` for startup workspace setup.
