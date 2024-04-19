@@ -2,13 +2,20 @@ Automatically setups workspaces.
 
 Requires my specific hardware and software setup so may not be that useful to anybody else.
 
-# Usage
+## Installation
 ```bash
-$ ./devs.sh project_name 4 # Setups up workspace 4 with project `project_name`
+$ make
+```
+The scripts are installed to `~/bin`.
+The `~/bin/devs_startup.sh` con be added to `.profile` or `.bashrc` for startup workspace setup.
+
+## Usage
+```bash
+$ ./devs.sh 4 project_name # Setups up workspace 4 with project `project_name`
 $ ./devs.sh 4              # Setups up workspace 4 and opens a prompt to select project
 ```
 
-# Requirements
+## Requirements
 Rought list of requirements:
 - 3 monitors
 - i3 window manager
